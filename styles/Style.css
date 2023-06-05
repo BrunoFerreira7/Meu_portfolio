@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap;Geologica&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.img_fundo{
+    background-size: cover;
+    background-image: url(/assets/conver_background.png)
+}
+/*Navegação links*/
+.navegacao{
+    padding-top: 2%;
+}
+/*Organizaçaõ*/
+.navegacao_menu{
+    display: flex;
+    justify-content: center;
+}
+/*estilização dos links*/
+.navegacao__menu__link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}  
+.navegacao__menu__link:hover{
+    font-size: 2rem;
+    transition-duration: 0.5s;
+}
+.lista_ondem{
+    display: inline-flex;
+}
+.navegacao_menu_ul{
+    display: flex;
+    gap: 10vh;
+}
+/*Dados do perfil de contato*/
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12vh 4vh;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20vh;
+    color:white;
+
+}
+/*circulo por tras da imagem*/
+.perfil_fundo_circular{
+    width: 300px;
+    aspect-ratio: 1;
+    background-image: url(/assets/avatar_pic.png);
+    background-position: center;
+    background-size: cover;
+    top: 90px;
+    border-radius: 50%;
+    border: rgb(233, 160, 97) 8px solid;
+}
+/*posicionamento de imagem*/
+/*paragrafo nome*/
+.perfil_nome{
+    font-size: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+    padding-right: 20vh;
+}
+/*paragrafo sobre cargo*/
+.perfil_cargo{
+    margin-top: 5vh;
+    font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+}
+/*Contatos*/
+.perfil_geral{
+    margin-top: 2vh;
+}
+.icon-infomacoes{
+    width: 4vh;
+    height: 4vh;
+}
+.espacamento_perfil{
+    gap: 200px;
+}
+/*bloco de infomações sobre o contato*/
+.perfil_contato_{
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    gap: 2vh;
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+}
+ .icon_tamanho_redesocial{
+    width: 5vh;
+    height: 5vh;
+    padding-left: 4vh;
+ }
+ .icon_tamanho_redesocial:hover{
+    width: 4rem;
+    height: 4rem;
+    transition-duration: 0.5s;
+ }
+
+/*icones de rede social*/
+.redes_sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+/*Posicionamento sobre mim*/
+.conteudo{
+    background-color: #8686863b;
+    width: 100%;
+}
+.conteudo_sobre{
+    display: flex;
+    margin-bottom: 12vh;
+}
+/*Estrutura sobre mim*/
+.conteudo_sobre_mim{
+    margin-top: 11vh;
+    margin-left:8vh;
+    font-size: 3vh;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+/*paragrafo sobre mim*/
+.conteudo_sobre_paragrafo{
+    margin-top:5vh;
+    margin-left:8vh;
+    margin-right: 6vh;
+    font-size: 2vh;
+    font-family: 'Inter', sans-serif;
+    font-weight:300;
+}
+/*Segundo paragrafo sobre mim*/
+.conteudo_sobre_paragrafo_2{
+    margin-top:4vh;
+    margin-left:8vh;
+    margin-right:6vh;
+    font-size: 2vh;
+    font-family:'Inter', sans-serif;  
+    font-weight:300;
+}
+/*Imagem sobre mim*/
+.conteudo_sobre_imagem{
+    margin-top: 11vh;
+    margin-left:16vh;
+    width:65vh;
+    height:44vh;
+}
+/*Educação*/
+.divisao_conteudos{
+    width: auto;
+    height: 5vh;
+    background-color: #f56f3f9f;
+    justify-content: space-between;
+}
+/*titulo de competencias*/
+.titulo_de_competencias{
+    padding-top: 0.521vh;
+    padding-left:16vh;
+    font-family:'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+}
+/*espacamento de elementos*/
+.margin_conteudo{
+    display: flex;
+    margin-bottom:9vh;
+    margin-right: 20vh;
+}
+.bloco_organizador_conteudo_constrate{
+    background: linear-gradient(#313131, #d8d8d8ea);
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+.bloco_organizador_conteudo_constrate_cinza1{
+    background-color: #313131f6;
+    padding-top: 1vh;
+    padding-left: 1vh;
+}
+/*destaque de competencias(bloco azul)*/
+.bloco_organizador_conteudo{
+    width: 61vh;
+    height: 19vh;
+    margin-top:9vh;
+    margin-left:19vh;
+    border-radius: 2.5vh;
+    background-color: #f56f3f9f;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+.bloco_organizador_conteudo_2{
+    width: 61vh;
+    height: 19vh;
+    margin-top:9vh;
+    margin-left: 19vh;
+    border-radius: 2.5vh;
+    background-color: #f56f3f9f;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+/*Gerenciador de titulo(educação/experiencia/habilidades)*/
+.bloco_font_conteudo{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size:3vh ;
+}
+/*Gerenciador de paragrafo*/
+.bloco_font_segundo_conteudo{
+    font-family:'Inter', sans-serif;
+    font-weight:300;
+    font-size:2.6vh;
+}
+/*Agrupamento de imagens em um bloco*/
+.caixa_icones{
+    margin-top: 9vh;
+    padding-bottom: 9vh;
+    margin-left:19vh ;
+}
+.icon_tamanho_habilidades{
+    width: 10vh;
+    height: 10vh;
+}
+.icon_tamanho_habilidades_ilustrator{
+    height: 10vh;
+    width: 15vh;
+}
+.tamanho_icone{
+    height: 10vh;
+    width: 14vh;
+}
+.tamanho_icone_react{
+    height: 12vh;
+    width: 12vh;
+}
+.tamanho_icone_figma{
+    height: 12vh;
+    width: 12vh;
+}
+/*Afastamento das imagens*/
+.caixa_ajuste_icones{
+   display: flex;
+   align-items: center;
+   gap: 5vh;
+}
+.tamanho_interesses{
+    height: 10vh;
+    width: 15vh;
+}
+ /*rodape*/
+ .rodape{
+    width: auto;
+    height: 31vh;
+    background-color: #ff430096;
+ }
+ /*alinhador do rodape*/
+ .rodape_aliamento{
+    display: flex;
+    justify-content: center;
+    padding-top: 9vh;
+    gap: 2vh;
+}
+/*Contato e-mail e whatsapp*/
+.rodape_paragrafo{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size:4vh;
+}
+/*paragrafo nome*/
+.rodape_para{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+/*estilização dos links*/
+.rodape_a{
+    color: black;
+    text-decoration: none;
+}
+/*estilização sobre */
+.rodape_p{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size:3vh;
+}
+.tamanho_icon_cell{
+    width:6vh;
+    height:6vh;
+}
+/*estilização do ano*/
+.rodape_ano{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size:2vh;
+}
+.rodape_para_ano{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+.menu{
+    display:none;
+    padding-left: 85%;
+}
+@media screen and (max-width:1040px){
+    .img_fundo{
+        background-size: cover;
+        background-image: url(/assets/cover_fundo_2.png)
+    }
+    .navegacao_lista {
+        display: none;
+    }
+
+    .menu {
+        display: inherit;
+    }
+    .perfil_nome{
+        padding:0;
+        display: inline-block;
+        font-size: 5vh;
+
+    }
+    .perfil_cargo{
+        text-align:center;
+        font-size: 2.8vh;
+    }
+    .perfil_pessoal{
+        padding-top:20vh;
+    }
+    .perfil_pessoal p {
+        font-size: 2vh;
+    }
+    .icon-infomacoes{
+        width: 2vh;
+        height: 2vh;  
+    }
+    .tamanho_icon_cell{
+        width: 5vh;
+        height: 5vh;
+        margin-left: 2vh;
+    }
+    .perfil_fundo_circular{
+        position:absolute;
+        height:20vh;
+        width:20vh;  
+        z-index: 1;
+    }
+    .perfil{
+        display: flex;
+        flex-direction:column;
+    }
+    .redes_sociais{
+        padding-top:5vh;
+        padding-right: 3vh;
+        display:flex;
+        flex-direction:row;
+        gap: 0;
+    }
+    p{
+      text-align:justify;   
+    }
+    .conteudo_sobre_imagem{
+        display:none;
+    }
+    .conteudo_sobre_paragrafo{
+        font-size: 1.8vh;
+    }
+    .conteudo_sobre_paragrafo_2{
+        font-size: 1.8vh;
+    }
+    .bloco_font_segundo_conteudo{
+        font-size: 2vh;
+    }
+    .caixa_ajuste_icones{
+        display:flex;
+        padding: 0; 
+    }
+    .icon_tamanho_habilidades{
+        width:4vh;
+        height:4vh;
+    }
+    .icon_tamanho_habilidades_ilustrator{
+        margin-left:-1vh;
+        width:6vh;
+        height:4vh;
+    }
+    .tamanho_icone{
+        width:12vh;
+        height:9vh;
+    }
+    .tamanho_icone_react{
+        width:9vh;
+        height:9vh;
+    }
+    .tamanho_icone_figma{
+        width:9vh;
+        height:9vh;
+    }
+    .titulo_de_competencias{
+        padding-left:8vh;
+    }
+    .caixa_ajuste_icones{
+        margin-left: -12vh;
+        gap: 2vh;
+    }
+    .bloco_organizador_conteudo{
+        width: auto;
+     }
+     .bloco_organizador_conteudo_2{
+        width: auto;
+     }
+     .margin_conteudo{
+         display: flex;
+         flex-direction:column;
+         margin-left:-16vh;
+         margin-right:2vh;
+     }
+    .rodape_paragrafo{
+        font-size: 2.7vh;
+    }
+    .rodape_p{
+        font-size: 2.5vh;
+    }
+    .rodape_ano{
+        font-size: 1.5vh;
+    }
+    .padding_1{
+       padding-bottom: 5vh; 
+    }
+    .menu{
+        position: absolute;
+        z-index: 10;
+    }
+    .menu_aberto{
+       right:0;
+    }
+    .menu-toogle{
+        position: absolute;
+        background-color: #250c02d1;
+        color:white;
+        width: 5rem;
+        height:2rem;
+        padding-bottom: 55vh;
+        padding-left:20vh;
+        justify-content:end;
+    }
+    .desativado{
+        display: none;
+    }
+    .svg_1{
+        position: absolute;
+        margin: 3vh 4vh;
+    }
+    .aba_mobile{
+        margin-top:10vh;
+        margin-right:8vh;
+        text-decoration:none;
+    }
+    .aba_mobile_lista{
+        margin-top:5vh;
+        display: inline-block;
+    }
+    .aba_mobile_lista_a{
+        text-decoration:none;
+        font-family: 'Geologica', sans-serif;;
+        font-weight: 400;
+        color:white;
+        font-size: 2.5vh;
+    }
+}

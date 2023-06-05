@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/Style.css">
+    <title>Meu Portfolio</title>
+</head>
+<body>
+    <div class="img_fundo">
+        <header class="navegacao">
+            <nav class="navegacao_menu">
+                <ul class="navegacao_menu_ul navegacao_lista" >
+                    <li class="lista_ondem">
+                        <a href="#sobre-mim" class="navegacao__menu__link">sobre mim</a>
+                    </li>
+                    <li class="lista_ondem">
+                        <a href="#formacao" class="navegacao__menu__link">formação</a>
+                    </li>
+                    <li class="lista_ondem">
+                        <a href="#experiencias" class="navegacao__menu__link">experiências</a>
+                    </li>
+                    <li class="lista_ondem">
+                        <a href="#habilidades" class="navegacao__menu__link">habilidades</a>
+                    </li>
+                    <li class="lista_ondem">
+                        <a href="#interesses" class="navegacao__menu__link">interesses</a>
+                    </li>
+                </ul>
+                <div class="padding_1"></div>
+                <svg class="menu" onclick="clicou()" id="botao-toogle" width="50" height="50" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 7V9H28V7H4ZM4 15V17H28V15H4ZM4 23V25H28V23H4Z" fill="black"/>
+                </svg> 
+                <div class="menu desativado menu-toogle menu_aberto" id="menu-toogle">
+                    <svg width="35" height="35" class="svg_1" onclick="fechou()" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.96855 0.508603L11.7647 9.66346L20.5247 0.546277C20.8349 0.202688 21.2662 0.00546277 21.7192 0C22.7188 0 23.5291 0.843339 23.5291 1.88372C23.5376 2.3505 23.3608 2.80033 23.0404 3.12697L14.19 12.2442L23.0404 21.4555C23.3387 21.7592 23.5137 22.1706 23.5291 22.6046C23.5291 23.645 22.7188 24.4883 21.7192 24.4883C21.2528 24.5085 20.7998 24.3239 20.4704 23.9797L11.7647 14.8248L2.98665 23.9609C2.67769 24.293 2.25417 24.4828 1.8102 24.4883C0.81059 24.4883 0.000293336 23.645 0.000293336 22.6046C-0.00821324 22.1378 0.168615 21.688 0.488969 21.3613L9.33943 12.2442L0.488969 3.03278C0.190696 2.72913 0.0156776 2.31772 0.000293336 1.88372C0.000293336 0.843339 0.81059 0 1.8102 0C2.24531 0.00546277 2.66104 0.187995 2.96855 0.508603Z" fill="black"/>
+                    </svg>
+                    <br>
+                    <ul class="aba_mobile">
+                        <li class="aba_mobile_lista">
+                            <a href="#sobre-mim" class="aba_mobile_lista_a">sobre mim</a>
+                        </li>
+                        <li class="aba_mobile_lista">
+                            <a href="#formacao" class="aba_mobile_lista_a"> formação</a>
+                        </li>
+                        <li class="aba_mobile_lista">
+                            <a href="#experiencias" class="aba_mobile_lista_a">experiências</a>
+                        </li>
+                        <li class="aba_mobile_lista">
+                            <a href="#habilidades" class="aba_mobile_lista_a">habilidades</a>
+                        </li>
+                        <li class="aba_mobile_lista">
+                            <a href="#interesses" class="aba_mobile_lista_a">interesses</a>
+                        </li>
+                    </ul>
+                </div>                   
+            </nav>
+        </header>   
+        <section class="perfil">
+            <div class="perfil_pessoal">
+                     <h1 class="perfil_nome">Bruno Ferreira</h1>
+                     <h2 class="perfil_cargo">Desenvolvedor Front-end</h2>
+                <div class="perfil_geral">
+                    <div class="perfil_contato_">
+                        <img class="icon-infomacoes" src="/assets/o-email_2.png">
+                        <p>brunoferreira2431@Gmail.com</p>
+                    </div>
+                    <div class="perfil_contato_">
+                        <img class="icon-infomacoes" src="/assets/whatsapp_2.png">
+                        <p>(21) 979878160</p>
+                    </div>
+                    <div class="perfil_contato_">
+                        <img class="icon-infomacoes" src="/assets/address 1_2.png">                 
+                        <p>Rio de Janeiro/RJ - Brasil</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="perfil_fundo_circular"></div> 
+            <div class="redes_sociais">
+                <a href="https://www.linkedin.com/in/bruno-ferreira-031874262/" target="_blank"><img src="/assets/linkedin_2.png" class="icon_tamanho_redesocial"></a>
+                <a href="https://www.instagram.com/bn_ferreira07/" target="_blank"><img src="/assets/instagram_2.png" class="icon_tamanho_redesocial"></a>
+                <a href="https://github.com/Bn021" target="_blank"><img src="/assets/github_2.png" class="icon_tamanho_redesocial"></a>
+             </div>   
+        </section>
+    </div>
+    <div class="bloco_organizador_conteudo_constrate" id="sobre-mim"></div>
+    <main class="conteudo">
+        <div class="conteudo_sobre">
+            <img src="/assets/sobremim.jfif" class="conteudo_sobre_imagem">
+            <div>    
+                <h2 class="conteudo_sobre_mim">Sobre mim</h2>  
+                <p class="conteudo_sobre_paragrafo">Olá, prazer me chamo Bruno Ferreira. sou Desenvolvedor Junior na área de programação percebi que minha paixão estava voltada para a tecnologia, o que me levou a buscar conhecimento na área. 
+                    Iniciei minha trajetória acadêmica no Colégio Pedro II, onde me formei em Técnico em desenvolvimento de sistemas. Posteriormente, realizei cursos online na plataforma Rocketseat e Alura. 
+                    Ao longo dos anos, fui adquirindo conhecimentos em Edições de imagens nos aplicativos da adobe photoshop e illustrator e tive a oportunidade de aplicá-los em projetos como o meu TCC -trabalho de conclusão de curso. 
+                </p>
+                <p class="conteudo_sobre_paragrafo_2">
+                    Acredito que uma das chaves para o sucesso em qualquer área é a constante busca por aprimoramento e aprendizado. 
+                    Por isso, sempre busco me atualizar com cursos, palestras e outras formas de aprendizagem para garantir que estou sempre trazendo as melhores soluções para meus clientes.
+                </p>
+            </div>    
+        </div>
+        <div class="divisao_conteudos">
+            <h2 class="titulo_de_competencias" id="formacao">Educação</h2>
+        </div>
+        <div class="margin_conteudo">
+            <div class="bloco_organizador_conteudo">
+                    <h3 class="bloco_font_conteudo">• Colegio Pedro II</h3><br>
+                    <p class="bloco_font_segundo_conteudo">Ensino medio integrado<br>Técnico em Desenvolvimento de Sistemas</p>
+                </div>           
+            <div class="bloco_organizador_conteudo_2">
+                <h3 class="bloco_font_conteudo">• Cursos</h3><br>
+                <p class="bloco_font_segundo_conteudo">Empresa Zenvia-Alura include(2023)<br>cursos de HTML,CSS e JavaScript<br>Certificados <a href="https://cursos.alura.com.br/user/brunoferreira2431/fullCertificate/f286a6a11987d98dd5be0c0ab1a1400b">aqui</a></p>
+            </div>   
+        </div>
+        <div class="divisao_conteudos">
+            <h2 class="titulo_de_competencias" id="experiencias">Experiências</h2>
+        </div>
+            <div class="margin_conteudo">
+                <div class="bloco_organizador_conteudo">
+                        <h3 class="bloco_font_conteudo">• Desing gráfico</h3><br>
+                        <p class="bloco_font_segundo_conteudo">Edições de fotos em<br>Adobe Photoshop e illustrator</p>
+                    </div>           
+                <div class="bloco_organizador_conteudo_2">
+                    <h3 class="bloco_font_conteudo">• TCC - Trabalho de Conclusão de Curso  </h3><br>
+                    <p class="bloco_font_segundo_conteudo">desenvolvi um jogo de futebol ultilizando<br> Unity e Blender 3D</p>
+                </div>   
+            </div>  
+        <div class="divisao_conteudos">
+            <h2 class="titulo_de_competencias" id="habilidades">Habilidades</h2>
+        </div>
+        <div class="caixa_icones">
+            <div class="caixa_ajuste_icones">
+                <img src="/assets/icons8-html-5-_2.png" alt="html5"  class="icon_tamanho_habilidades">
+                <img src="/assets/css_1.png" alt="css3" class="icon_tamanho_habilidades">
+                <img src="/assets/image 1.png" alt="JavaScript" class="icon_tamanho_habilidades">
+                <img src="/assets/icons8-git_2.png" alt="C++" class="icon_tamanho_habilidades">
+                <img src="/assets/image 6.png" alt="Photoshop" class="icon_tamanho_habilidades">
+                <img src="/assets/image 7.png" alt="illustrator" class="icon_tamanho_habilidades_ilustrator">
+            </div>
+        </div>
+        <div class="divisao_conteudos">
+            <h2 class="titulo_de_competencias" id="interesses">Interesses</h2>
+        </div>
+        <div class="caixa_icones">
+            <div class="caixa_ajuste_icones">
+                <img class="tamanho_icone" src="/assets/icons8-html-5-100 6.png" alt="Nodejs">
+                <img class="tamanho_icone_react" src="/assets/image 5.png" alt="React" >
+                <img class="tamanho_icone_figma" src="/assets/image 2.png" alt="Figma" >
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape_aliamento">
+            <img class="tamanho_icon_cell" src="/assets/correio-de-voz 1.png" alt="icon-ligacao">
+            <p class="rodape_paragrafo">Fale comigo através do <a href="brunoferreira2431@Gmail.com" class="rodape_a">e-mail</a> ou do <a href="21979878160" class="rodape_a"> Whatsapp.<a></p>
+        </div>
+        <div class="rodape_para">
+            <p class="rodape_p">Bruno Ferreira</p>
+        </div>
+        <div class="rodape_para_ano">
+            <p class="rodape_ano">2023</p>
+        </div>  
+    </footer>
+</body>
+<script src="/js/menu.js"></script>
+</html>
