@@ -9,7 +9,7 @@ html{
 }
 .img_fundo{
     background-size: cover;
-    background-image: url(assets/conver_background.png)
+    background-image: url(conver_background.png)
 }
 /*Navegação links*/
 .navegacao{
@@ -53,7 +53,7 @@ html{
 .perfil_fundo_circular{
     width: 300px;
     aspect-ratio: 1;
-    background-image: url(/assets/avatar_pic.png);
+    background-image: url(avatar_pic.png);
     background-position: center;
     background-size: cover;
     top: 90px;
@@ -313,7 +313,7 @@ html{
 @media screen and (max-width:1040px){
     .img_fundo{
         background-size: cover;
-        background-image: url(assets/cover_fundo_2.png)
+        background-image: url(cover_fundo_2.png)
     }
     .navegacao_lista {
         display: none;
